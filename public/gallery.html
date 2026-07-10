@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./output.css">
+    
+   <title>Colourful Roofing | Premium New Zealand Stone-Coated Roofing</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="./index.js" rel="modulepreload" as="script">
+</head>
+<body class="bg-background text-on-surface font-body">
+    <div class="mt-0 fixed top-0 left-0 right-0 z-50 bg-background">
+        <nav class="mx-auto px-margin-mobile md:px-section-padding border-b-2 border-border dark:border-[#ffdbce]">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="index.html" class="font-heading text-headline-sm font-bold uppercase tracking-tighter text-text px-0 whitespace-nowrap flex-shrink-0">
+                    Colourful Roofing
+                </a>
+
+                <!-- Mobile menu button -->
+                <button id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 rounded-md ml-auto focus:outline-none focus:ring-2 focus:ring-primary flex-shrink-0">
+                    <svg id="icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <ul class="flex items-center space-x-4 gap-2">
+                        <li><a href="index.html" data-nav-link class="nav-link text-text hover:text-primary">Home</a></li>
+                        <li><a href="product.html" data-nav-link class="nav-link text-text hover:text-primary">Products</a></li>
+                        <li><a href="about.html#about" data-nav-link class="nav-link text-text hover:text-primary">About</a></li>
+                        <li><a href="gallery.html" data-nav-link class="nav-link text-primary border-b-2 border-primary pb-1 hover:text-primary">Gallery</a></li>
+                    </ul>
+                    <div class="pl-6">
+                        <a href="about.html#contact" class="btn-primary">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile dropdown menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b-2 border-border dark:border-[#ffdbce] bg-background px-margin-mobile py-4">
+            <a href="index.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Home</a>
+            <a href="product.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Products</a>
+            <a href="about.html#about" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">About</a>
+            <a href="gallery.html" data-nav-link class="block px-4 py-2 text-primary hover:bg-primary/10 rounded transition-colors">Gallery</a>
+            <a href="about.html#contact" class="btn-primary w-full text-center py-3 mt-2 block">Request Quote</a>
+        </div>
+    </div>
+
+
+     <section class="my-11 py-section-padding transition-all duration-1000 opacity-100 translate-y-0">
+        <div class="px-margin-mobile md:px-section-padding max-w-container-max mx-auto">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-headline-md font-semibold">
+                    Our Project Gallery
+                </h2>
+                <p class="py-6 break-words translate-x-stack-sm lg:text-lg font-body px-4"> Explore our portfolio of completed roofing projects across residential and commercial properties. Every installation reflects our commitment to premium craftsmanship, durable materials, and exceptional attention to detail.</p>
+            </div>
+            <!-- image cards -->
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- card 1 -->
+                 <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery1.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                 <!-- card 2 -->
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery2.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+
+                 <!-- card 3 -->
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery3.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery4.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery5.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery6.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/IMG-20260701-WA0008.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery7.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/gallery8.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house1.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                        <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house2.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                        <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house3.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                        <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house4.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                        <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house5.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                        <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/house6.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+
+                 
+
+
+
+             </div>
+        </div>
+       </section>
+       <footer class="bg-dark border-t-4 border-primary mt-section-padding text-white">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter px-margin-mobile md:px-section-padding py-stack-lg max-w-container-max mx-auto">
+<div class="md:col-span-4 space-y-stack-md">
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">Colourful Roofing.ltd</div>
+<p class="text-surface-variant dark:text-on-surface-variant">
+                    Pioneering premium stone-coated steel roofing solutions. Engineering durability from New Zealand for global architectural excellence.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="facebook">face_nod</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="link">link</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Navigation</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="product.html">Products</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="index.html">Home</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="about.html#about">About</a></li>
+</ul>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-alt font-bold uppercase text-xs tracking-widest">Legal</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a></li>
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div class="md:col-span-4 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Newsletter</h4>
+<p class="text-surface-variant text-sm">Stay updated with our latest architectural projects and technical innovations.</p>
+<div class="flex">
+<input class="bg-surface-container-highest/10 border-b border-primary text-surface-bright px-4 py-2 focus:ring-0 focus:border-primary-container flex-grow outline-none" placeholder="Your email" type="email">
+<button class="bg-primary text-on-primary px-4 py-2 font-bold uppercase text-xs tracking-tighter">Join</button>
+</div>
+</div>
+</div>
+<div class="border-t border-surface-variant/20 py-8 px-margin-mobile md:px-section-padding max-w-container-max mx-auto text-center">
+<p class="text-surface-variant text-sm">
+                © 2026 Colourful Roofing. All rights reserved. Premium Stone-Coated Steel Roofing.
+            </p>
+</div>
+</footer>
+     
+
+<script type="module" src="./index.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,113 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ................normal css............... */
+
+.material-symbols-outlined{
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+
+/* ...........utilities................ */
+
+@layer utilities {
+    .hero-gradient{
+    background:
+        linear-gradient(
+            rgba(19,29,33,.7),
+            rgba(19,29,33,.4)
+        );
+}
+.animate-float{
+
+animation:float 6s ease-in-out infinite;
+
+}
+}
+
+@layer components {
+    .btn-primary {
+    @apply inline-flex items-center justify-center
+           bg-primary text-white
+           px-8 py-3
+           rounded-lg
+           font-semibold
+           transition-all duration-300
+           hover:bg-primary-dark
+           hover:scale-95
+           active:scale-95;
+  }
+    .btn-dark {
+    @apply inline-flex items-center justify-center
+           bg-dark text-white
+           px-8 py-3
+           rounded-lg
+           font-semibold
+           transition-all duration-300
+           hover:bg-black;
+  }
+
+  .nav-link {
+    @apply transition-colors duration-200;
+  }
+
+.product-card-hover:hover .product-image{
+
+transform:scale(1.05);
+
+}
+.info-card{
+    @apply p-4 bg-surface-alt text-gray-700 rounded-md shadow-md border lg:w-auto border-primary
+}
+.product-card{
+    @apply mb-6 overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300
+
+}
+.product-card-image{
+    @apply w-full h-60 object-cover transition-transform duration-500 
+
+}
+ .product-badge {
+    @apply inline-block mt-5 px-3 py-1 rounded-md bg-primary text-white text-xs font-semibold uppercase tracking-wide
+  }
+  .faq-accordion[open] .faq-icon {
+            transform: rotate(180deg);
+        }
+        .stat-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+
+
+}
+
+
+
+
+

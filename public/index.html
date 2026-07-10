@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./output.css">
+    
+   <title>Colourful Roofing | Premium New Zealand Stone-Coated Roofing</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="./index.js" rel="modulepreload" as="script">
+</head>
+<body class="bg-background text-on-surface font-body">
+    <div class="mt-0 fixed top-0 left-0 right-0 z-50 bg-background">
+        <nav class="mx-auto px-margin-mobile md:px-section-padding border-b-2 border-border dark:border-[#ffdbce]">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="index.html" class="font-heading text-headline-sm font-bold uppercase tracking-tighter text-text px-0 whitespace-nowrap flex-shrink-0">
+                    Colourful Roofing
+                </a>
+
+                <!-- Mobile menu button -->
+                <button id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 rounded-md ml-auto focus:outline-none focus:ring-2 focus:ring-primary flex-shrink-0">
+                    <svg id="icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <ul class="flex items-center space-x-4 gap-2">
+                        <li><a href="index.html" data-nav-link class="nav-link text-primary border-b-2 border-primary pb-1 hover:text-primary">Home</a></li>
+                        <li><a href="product.html" data-nav-link class="nav-link text-text hover:text-primary">Products</a></li>
+                        <li><a href="about.html#about" data-nav-link class="nav-link text-text hover:text-primary">About</a></li>
+                        <li><a href="gallery.html" data-nav-link class="nav-link text-text hover:text-primary">Gallery</a></li>
+                    </ul>
+                    <div class="pl-6">
+                        <a href="about.html#contact" class="btn-primary">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile dropdown menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b-2 border-border dark:border-[#ffdbce] bg-background px-margin-mobile py-4">
+            <a href="index.html" data-nav-link class="block px-4 py-2 text-primary hover:bg-primary/10 rounded transition-colors">Home</a>
+            <a href="product.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Products</a>
+            <a href="about.html#about" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">About</a>
+            <a href="gallery.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Gallery</a>
+            <a href="about.html#contact" class="btn-primary w-full text-center py-3 mt-2 block">Request Quote</a>
+        </div>
+    </div>
+
+<main class="pt-20">
+    <section class="relative flex h-[921px] items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="h-full w-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCS6a921uIL7ku56gXjgXGgQlYxF38_FI6y5qpezm6vXjc3glMMenc7YL_EaZnW7YT4boyWhHzb5R8cC3Xwebt6RwfRamQ4M0LE63opxCJ3iA-BRcYojlcBfYfEBuy78fr-Yb8NpB-GQmolH6Cy0C9WQXv050Y_f0R8cEY34k8NE0G9G_KZCTBMoznQ1pVdYBTu7121ogHjlzlCjtcQi8i3FdoGDc7kO1XV-CZuHfuelW6OWwzdm_tBm88TfcZHfzAwvgFUlrGX7c53');"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/20"></div>
+        </div>
+        <div class="relative z-10 mx-auto w-full max-w-container-max px-margin-mobile md:px-section-padding">
+            <div class="max-w-3xl space-y-8">
+                <h1 class="font-heading text-headline-sm font-bold leading-tight text-white md:text-display-lg">
+                    Premium Stone-Coated Roofing from New Zealand
+                </h1>
+                <p class="max-w-xl text-body-md text-white/90 md:text-body-lg">
+                    Engineered Aluzinc durability for a lifetime of protection. Experience architectural elegance that withstands the world's harshest conditions.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="about.html#contact" class="inline-flex items-center justify-center bg-primary px-10 py-4 text-lg font-bold text-on-primary transition-all hover:bg-primary-container hover:text-dark active:scale-95">
+                        Request Quote
+                    </a>
+                    <a id="contact-action" href="https://wa.me/0708479510" class="inline-flex items-center justify-center border-2 border-white px-10 py-4 text-lg font-bold text-white transition-all hover:bg-white hover:text-primary active:scale-95">
+                        WhatsApp / Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+</main>
+
+
+
+
+      <section class="mt-20">
+        <!-- card section -->
+        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6 mt-20 p-5">
+            <!-- card 1 -->
+                <div class="info-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-6 mb-3 mx-3 text-primary">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+</svg>
+
+ 
+                    <div>
+                    <h3 class="mt-4 text-xl font-extrabold text-gray-900 mb-3">Alu-zinc<br>Strength</h3>
+                    <p class="text-gray-700 text-base leading-6">Superior structural integrity with advanced maximum impact resistance</p>
+                    </div>
+                    </div>
+                    <!-- card 2 -->
+
+                          <div class="info-card">
+                    <div>
+                     <h3 class="mt-4 text-xl font-extrabold text-gray-900 mb-3">Stone-Coated<br>Elegance</h3>
+                    <p class="text-gray-700 text-base leading-6">Natural stone granules provide a permanent color finish and high-end aesthetic appeal.</p>
+                    </div>
+                    </div>
+                    <!-- card 3 -->
+
+                          <div class="info-card">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-6 mb-3 mx-3 text-primary">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+</svg>
+
+                    <h3 class="mt-4 text-xl font-extrabold text-gray-900 mb-3">New-Zealand<br>Import</h3>
+                    <p class="text-gray-700 text-base leading-6">Authentic New Zealand technology, manufactured to the highest international safety standards.</p>
+                    </div>
+                    </div>
+<!-- card 4 -->
+                             <div class="info-card">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-6 mb-3 mx-3 text-primary">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+</svg>
+
+                    <h3 class="mt-4 text-xl font-extrabold text-gray-900 mb-3">WeatherProof<br>Tech</h3>
+                    <p class="text-gray-700 text-base leading-6">Tested to withstand extreme wind loads, heavy rains, and intense UV radiation cycles.</p>
+                    </div>
+                    </div>
+                    
+
+            
+        </div>
+      </section> 
+      <!-- product section -->
+      <section class="mt-20">
+        <div class="flex justify-between items-center px-margin-mobile md:px-section-padding">
+            <div>
+                <span class="rounded-full p-2 bg-primary text-white uppercase text-xs mx-4 mb-12">our collection</span>
+                <h2 class="text-2xl pt-3 px-2 font-semibold">Explore Our Products</h2>
+            </div>
+            <div>
+                <a href="#products" class="p-2 text-primary-dark hover:text-text">View All Products --&gt;</a>
+            </div>
+        </div>
+        <!-- product cards -->
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-margin-mobile md:px-section-padding">
+            <div class="product-card group">
+                <img
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDF3PcQ8q3P6vS5zPXBfRsLjy5Mk08eZH-j-rifvz7uI48pb4sCIpUhVbZ5SFJ_cJKJ9KAI9QRATWHUeBEdX5t3enAphWX7-2flBBim78axv8jtukPI9arbc2-mx2qQBYeFpDuh0U4ABX68J89OHHL4Q2clBukP7XED8i_bi1XLCGTafWGqskUZlQM3ggZMOyi4Y2SmlvKdM0A-Gv-CkB8yfynel_e0vyLNNXeWNbqO-_PdYiX81O9gVtOYxj645TSiUe_P3bNVY0CM"
+                    class="product-card-image"
+                    alt="Milano Tile">
+                <div class="p-7 lg:p-8 border border-slate-100">
+                    <h3 class="text-xl font-heading font-semibold">Milano</h3>
+                    <p class="mt-2 text-body-md text-gray-600 leading-relaxed">
+                        A timeless Mediterranean profile that brings warmth and classic architectural flair to any residence.
+                    </p>
+                    <a href="product.html" class="mt-4 inline-flex items-center text-primary font-semibold hover:text-primary-dark">View Products <span class="ml-1">→</span></a>
+                </div>
+            </div>
+
+            <div class="product-card group">
+                <img
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAmWAOM0Xt1TB-Qu79BWksthVLUw209maTnsGkd0YtGsY9nXuFhxZ8Q77JH-34MDcEtgFGIjlTPxMQk-w3rDiwd8CuH__-_GgdPYurCGmj1v8McYIei93gxd7Kow2--9VBPAPisGrgr2s9BlX46x2td95hFUZPGltI3V87U-HpdzcqeRs2VAGMvr7yaODrhBPx6VJ8BDhha_kHao9ditm7Hn93yR8Fbi6F6LLD8ZVvr2ehgITNJt8dNtaoyjZq469lRBxnXn1ddWHT"
+                    class="product-card-image"
+                    alt="Shake Tile">
+                <div class="p-7 lg:p-8 border border-slate-100">
+                    <h3 class="text-xl font-heading font-semibold">Shake</h3>
+                    <p class="mt-2 text-body-md text-gray-600 leading-relaxed">
+                        The rustic charm of traditional wooden shakes, re-engineered for modern durability and fire resistance.
+                    </p>
+                    <a href="product.html" class="mt-4 inline-flex items-center text-primary font-semibold hover:text-primary-dark">View Products <span class="ml-1">→</span></a>
+                </div>
+            </div>
+
+            <div class="product-card group">
+                <img
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN8hvhDarB7K6KYS4wpJ8tmfVNbquYNPde68wma5F5Ysam0lYrvW9b_dor56tmAwe5Vv9SYTEdTMtsYL53BEDkZh_1BVo9IAZ4rf_kc3WUsu4Eo2xfYc8Z0Qjh87CNnW1LY6OMrej2gIZTj4E3ad2fQuuL_JR5Uk7gQwA1aTunBXoKSxYQU_2O9cSCbAJWnQIMXKbtCnwwLyPZiaRWEsAK0bsLzdg4DD_SreO2v5nUW8hA7xKIgbOcCQTL_lBIIer9OG1Ppzndz_yo"
+                    class="product-card-image"
+                    alt="Classic Tile">
+                <div class="p-7 lg:p-8 border border-slate-100">
+                    <h3 class="text-xl font-heading font-semibold">Classic</h3>
+                    <p class="mt-2 text-body-md text-gray-600 leading-relaxed">
+                        Sleek, bold lines that define contemporary luxury. The perfect balance between form and extreme function.
+                    </p>
+                    <a href="product.html" class="mt-4 inline-flex items-center text-primary font-semibold hover:text-primary-dark">View Products <span class="ml-1">→</span></a>
+                </div>
+            </div>
+        </div>
+      </section>
+<!-- trust section -->
+      <section class="mt-20 bg-slate-900 text-white overflow-hidden opacity-100">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkTc7Q23zmw3kbHfsj22kkA94qaE-kRLKvyA1gsHbqB6uZllW1kfR0e3pJm3gAlMPtfaWt6AQiMfYr227TNzla0o91TXOIDIOR1h2wTnfGVn2Lw5HOc4yERuMlIPBSa9oxItP_mkbl1X3DbF2vpTK31MYsMSbaV7gJskFpij-bIm6_dP4jL5c7vxb3TTJkBVTBQ9MhDeFYcjmkEFwGKX6KzK-Nkx7tWJYdxZ82VP6b8hRqpRJUAuvrm1WOUhvFYZ2CMX16unilbcd0"
+                 class="w-full h-[px] object-cover rounded-lg py-7"
+                  alt="detailed roof structure">
+                  </div>
+                <div class="-space-y-stack-lg">
+                    <h2 class="font-headline-md text-headline-md border-b-4 border-primary pb-stack-sm inline-block">Why Choose Aluzinc?</h2>
+                    <p class="font-body-lg pt-16">
+                        At the heart of every Colourful Roof tile is <strong class="font-semibold">Aluzinc</strong> —a high-performance alloy of Aluminum, Zinc, and Silicon. This core provides the backbone for our lifetime guarantee.
+                    </p>
+
+                    <ul class="space-y-stack-md py-16">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div>
+<strong class="block text-xl">Superior Corrosion Resistance</strong>
+<span class="text-surface">The Aluzinc coating protects the steel core up to 6 times longer than standard galvanized steel, even in coastal environments.</span>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div>
+<strong class="block text-xl">Lightweight Structural Safety</strong>
+<span class="text-surface">7x lighter than concrete tiles, significantly reducing the structural load on your home and improving earthquake safety.</span>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div>
+<strong class="block text-xl">Advanced Heat Insulation</strong>
+<span class="text-surface">The reflective properties of Aluzinc combined with our stone coating keep your home cooler in summer and warmer in winter.</span>
+</div>
+</li>
+</ul>
+                    
+                </div>
+
+            </div>
+             </div>
+     
+             
+
+      </section>
+
+      <!-- gallery section -->
+       <section class="mt-20 py-section-padding transition-all duration-1000 opacity-100 translate-y-0">
+        <div class="px-margin-mobile md:px-section-padding max-w-container-max mx-auto">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-headline-md font-semibold">
+                    Recent projects
+                </h2>
+                <p class="pt-4 pb-5 break-words translate-x-stack-sm lg:text-lg font-body px-4">Discover how Metro Roof transforms skyline aesthetics across New Zealand and beyond with high-end architectural installs.</p>
+            </div>
+            <!-- image cards -->
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- card 1 -->
+                 <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/IMG-20260701-WA0049.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+                 <!-- card 2 -->
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/IMG-20260701-WA0043.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+
+                 <!-- card 3 -->
+                       <div class="group overflow-hidden rounded-xl h-[400px] px-4 cursor-pointer shadow-lg relative">
+                    <img src="images/IMG-20260701-WA0008.jpg" 
+                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    alt="house project">
+                 </div>
+
+                 <div class="mt-stack-lg text-center">
+<a class="pl-2 inline-flex items-center gap-1 font-bold text-lg text-primary border-b-2 border-primary pb-stack-sm hover:text-dark transition-colors" href="gallery.html">
+                        View All Projects <span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+
+
+             </div>
+        </div>
+       </section>
+
+       <section class="py-24 px-margin-mobile md:px-section-padding max-w-container-max mx-auto transition-all duration-1000 opacity-100 translate-y-0">
+        <div class="rounded-lg bg-primary-dark text-white p-12 md:p-20 relative overflow-hidden shadow-2xl">
+
+            <div class="absolute -right-20 -top-20 opacity-10 animate-float">
+<span class="material-symbols-outlined" style="font-size: 300px;">home_work</span>
+</div>
+            <div class="relative z-10 max-w-3xl mx-auto space-y-stack-md">
+                <h2 class="text-center font-heading text-lg md:text-xl">
+                    Ready for a lifetime protection?
+                </h2>
+                <p class="font-body-lg opacity-90 max-w-xl mx-auto pb-4">
+                     Get expert advice and a comprehensive quote for your project within 24 hours. Our specialists are ready to help you choose the perfect profile. 
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-gutter items-center justify-center">
+                     <a href="about.html#contact" class="inline-flex items-center justify-center bg-primary px-10 py-4 text-lg font-bold text-on-primary transition-all hover:bg-primary-container hover:text-dark active:scale-95">
+                        Request Quote
+                    </a>
+                    <a id="contact-action" href="https://wa.me/0708479510" class="bg-[#25D366] inline-flex items-center justify-center px-10 py-4 text-lg font-bold text-white transition-all hover:bg-white hover:text-primary active:scale-95">
+                        WhatsApp / Call
+                    </a>
+                <!-- <button class="bg-surface text-primary px-10 py-5 font-bold text-xl hover:scale-105 transition-transform flex items-center justify-center gap-3 rounded-full">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+                            Request Quote
+                        </button>
+<button class="bg-[#25D366] text-white px-10 py-5 font-bold text-xl hover:scale-105 transition-transform flex items-center justify-center gap-3">
+<svg class="w-10 h-6 rounded-full" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+                         <address href="0792017423">Contact Us </address>
+</button> -->
+            </div>
+
+        </div>
+       </section>
+
+       <!-- Footer -->
+<footer class="bg-dark border-t-4 border-primary mt-section-padding text-white">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter px-margin-mobile md:px-section-padding py-stack-lg max-w-container-max mx-auto">
+<div class="md:col-span-4 space-y-stack-md">
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">Colourful Roofing.ltd</div>
+<p class="text-surface-variant dark:text-on-surface-variant">
+                    Pioneering premium stone-coated steel roofing solutions. Engineering durability from New Zealand for global architectural excellence.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="facebook">face_nod</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="link">link</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Navigation</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="product.html">Products</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="index.html">Home</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="about.html#about">About</a></li>
+</ul>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-alt font-bold uppercase text-xs tracking-widest">Legal</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a></li>
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div class="md:col-span-4 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Newsletter</h4>
+<p class="text-surface-variant text-sm">Stay updated with our latest architectural projects and technical innovations.</p>
+<div class="flex">
+<input class="bg-surface-container-highest/10 border-b border-primary text-surface-bright px-4 py-2 focus:ring-0 focus:border-primary-container flex-grow outline-none" placeholder="Your email" type="email">
+<button class="bg-primary text-on-primary px-4 py-2 font-bold uppercase text-xs tracking-tighter">Join</button>
+</div>
+</div>
+</div>
+<div class="border-t border-surface-variant/20 py-8 px-margin-mobile md:px-section-padding max-w-container-max mx-auto text-center">
+<p class="text-surface-variant text-sm">
+                © 2026 Colourful Roofing. All rights reserved. Premium Stone-Coated Steel Roofing.
+            </p>
+</div>
+</footer>
+     
+
+
+      
+        
+
+
+
+
+<script type="module" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./output.css">
+    
+   <title>Colourful Roofing | Premium New Zealand Stone-Coated Roofing</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="./index.js" rel="modulepreload" as="script">
+</head>
+<body class="bg-background text-on-surface font-body">
+    <div class="mt-0 fixed top-0 left-0 right-0 z-50 bg-background">
+        <nav class="mx-auto px-margin-mobile md:px-section-padding border-b-2 border-primary">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="index.html" class="font-heading text-headline-sm font-bold uppercase tracking-tighter text-text px-0 whitespace-nowrap flex-shrink-0">
+                    Colourful Roofing
+                </a>
+
+                <!-- Mobile menu button -->
+                <button id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 rounded-md ml-auto focus:outline-none focus:ring-2 focus:ring-primary flex-shrink-0">
+                    <svg id="icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <ul class="flex items-center space-x-4 gap-2">
+                        <li><a href="index.html" data-nav-link class="nav-link text-text hover:text-primary">Home</a></li>
+                        <li><a href="product.html" data-nav-link class="nav-link text-primary border-b-2 border-primary pb-1 hover:text-primary">Products</a></li>
+                        <li><a href="about.html#about" data-nav-link class="nav-link text-text hover:text-primary">About</a></li>
+                        <li><a href="gallery.html" data-nav-link class="nav-link text-text hover:text-primary">Gallery</a></li>
+                    </ul>
+                    <div class="pl-6">
+                        <a href="about.html#contact" class="btn-primary">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile dropdown menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b-2 border-primary bg-background px-margin-mobile py-4">
+            <a href="index.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Home</a>
+            <a href="product.html" data-nav-link class="block px-4 py-2 text-primary hover:bg-primary/10 rounded transition-colors">Products</a>
+            <a href="about.html#about" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">About</a>
+            <a href="gallery.html" data-nav-link class="block px-4 py-2 text-text hover:text-primary hover:bg-primary/10 rounded transition-colors">Gallery</a>
+            <a href="about.html#contact" class="btn-primary w-full text-center py-3 mt-2 block">Request Quote</a>
+        </div>
+    </div>
+
+
+    <section class="relative py-stack-lg md:py-section-padding bg-dark text-white mt-20">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding">
+            <div class="max-w-3xl">
+                <span class="text-primary font-label-caps text-label-caps mb-stack-sm tracking-wider">Explore our premium roofing Products</span>
+            <h2 class="text-4xl font-bold font-heading">Our Roofing Solutions</h2>
+            <p class="text-base md:text-lg opacity-90"> Engineered for the elements. Metro Roof's stone-coated steel profiles combine architectural elegance with unmatched structural durability. </p>
+        </div>
+        </div>
+        <!-- Subtle architectural line -->
+<div class="absolute bottom-0 right-0 w-1/3 h-1 border-b-4 border-primary"></div>
+    </section>
+
+    <section class="bg-surface sticky top-20 z-40 shadow-sm">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding flex gap-8 h-16 items-center">
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-primary h-full flex items-center" href="#profiles">Tile Profiles</a>
+<a class="font-label-caps text-label-caps text-secondary hover:text-primary transition-colors h-full flex items-center" href="#accessories">Accessories</a>
+</div>
+</section>
+<section class="mt-10 bg-slate-100">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding">
+        <div class="mb-stack-lg">
+            <h1 class="pt-6 text-lg md:text-xl font-heading font-bold">
+                STONE COATED STEEL PROFILES 
+            </h1>
+        </div>
+        <!-- product card 1 -->
+        <div class="space-y-28">
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5">
+                    <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
+                        <img src="images/IMG-20260701-WA0037.jpg" class="w-full h-full object-cover product-main-image" alt="Milano tile">
+                    </div>
+                    <div class="flex gap-3 justify-start mt-4">
+                        <img src="images/milano1.jpg" data-full="images/milano1.jpg" alt="Milano variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/milano2.jpg" data-full="images/milano2.jpg" alt="Milano variant 2" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
+                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Milano</h3>
+                        <p class="text-primary font-bold text-label-caps tracking-wide">Premium Stone-Coated Steel Roofing</p>
+                        <p class="text-secondary font-headline-sm mt-2">High-profile curves with a classic Mediterranean finish.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Fire Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Wind Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Lightweight</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>UV Protected</span>
+                        </div>
+                    </div>
+                    <p class="font-body text-base border-l-4 border-primary/20 pl-6 py-4">
+                        A classic Mediterranean look with high-profile curves, providing a timeless aesthetic and superior water shedding. Ideal for high-end residential architecture requiring a bold, textured finish.
+                    </p>
+                             <ol class="flex flex-col items-start pl-8">
+                        <li type="i">Overal size: 1340mm*420mm</li>
+                        <li type="i">Coverage size: 1290mm * 370mm</li>
+                        <li type="i">Actual coverage/mile: 0.48m2</li>
+                        <li type="i">Tile per Square meter: 2.2pcs</li>
+                    </ol>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="about.html#contact" class="bg-primary text-dark px-10 py-4 btn-primary inline-flex items-center justify-center">Request Quote</a>
+                        <a href="gallery.html" class="rounded-full pb-4 border-2 border-primary-dark text-gray-950 px-10 py-4 text-sm hover:bg-dark hover:text-surface inline-flex items-center justify-center">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5">
+                    <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
+                        <img src="images/classic.jpg" class="w-full h-full object-cover product-main-image" alt="Classic tile">
+                    </div>
+                    <div class="flex gap-3 justify-end mt-4">
+                        <img src="images/classic1.jpg" data-full="images/classic1.jpg" alt="Classic variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/classic2.jpg" data-full="images/classic2.jpg" alt="Classic variant 2" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/classic3.jpg" data-full="images/classic3.jpg" alt="Classic variant 3" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/classic4.jpg" data-full="images/classic4.jpg" alt="Classic variant 4" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/classic5.jpg" data-full="images/classic5.jpg" alt="Classic variant 5" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+
+
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
+                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Classic</h3>
+                        <p class="text-primary font-bold text-label-caps tracking-wide">Stone-Coated Elegance</p>
+                        <p class="text-secondary font-headline-sm mt-2">Balanced proportions for timeless curb appeal.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Fire Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Wind Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Lightweight</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>UV Protected</span>
+                        </div>
+                    </div>
+                    <p class="font-body text-base border-l-4 border-primary/20 pl-6 py-4">
+                        Classic Tile is a simple, elegant profile that complements both traditional and modern architecture. Its clean lines and balanced proportions provide structural strength and sophisticated curb appeal.
+                    </p>
+                             <ol class="flex flex-col items-start pl-8">
+                        <li type="i">Overal size: 1340mm*420mm</li>
+                        <li type="i">Coverage size: 1290mm * 370mm</li>
+                        <li type="i">Actual coverage/mile: 0.48m2</li>
+                        <li type="i">Tile per Square meter: 2.2pcs</li>
+                    </ol>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="about.html#contact" class="bg-primary text-dark px-10 py-4 btn-primary inline-flex items-center justify-center">Request Quote</a>
+                        <a href="gallery.html" class="rounded-full pb-4 border-2 border-primary-dark text-gray-950 px-10 py-4 text-sm hover:bg-dark hover:text-surface inline-flex items-center justify-center">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5">
+                    <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
+                        <img src="images/shake.jpg" class="w-full h-full object-cover product-main-image" alt="Shake tile">
+                    </div>
+                    <div class="flex gap-3 justify-start mt-4">
+                        <img src="images/shake.jpg" data-full="images/shake.jpg" alt="Shake variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/shake1.jpg" data-full="images/shake1.jpg" alt="Shake variant 2" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
+                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">shake</h3>
+                        <p class="text-primary font-bold text-label-caps tracking-wide">Textured Timber Look</p>
+                        <p class="text-secondary font-headline-sm mt-2">Rugged style with steel strength.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Fire Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Wind Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Lightweight</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>UV Protected</span>
+                        </div>
+                    </div>
+                    <p class="font-body text-base border-l-4 border-primary/20 pl-6 py-4">
+                        Shake captures the rugged, traditional wood-shake appearance with the strength of steel. It offers the beauty of natural timber without the risks of splitting, rotting, or fire hazards.
+                    </p>
+                             <ol class="flex flex-col items-start pl-8">
+                        <li type="i">Overal size: 1340mm*420mm</li>
+                        <li type="i">Coverage size: 1290mm * 370mm</li>
+                        <li type="i">Actual coverage/mile: 0.48m2</li>
+                        <li type="i">Tile per Square meter: 2.2pcs</li>
+                    </ol>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="about.html#contact" class="bg-primary text-dark px-10 py-4 btn-primary inline-flex items-center justify-center">Request Quote</a>
+                        <a href="gallery.html" class="rounded-full pb-4 border-2 border-primary-dark text-gray-950 px-10 py-4 text-sm hover:bg-dark hover:text-surface inline-flex items-center justify-center">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5">
+                    <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
+                        <img src="images/shingle.jpg" class="w-full h-full object-cover product-main-image" alt="Shingle tile">
+                    </div>
+                    <div class="flex gap-3 justify-end mt-4">
+                        <img src="images/shingle1.jpg" data-full="images/shingle1.jpg" alt="Shingle variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/shingle2.jpg" data-full="images/shingle2.jpg" alt="Shingle variant 2" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/shingle3.jpg" data-full="images/shingle3.jpg" alt="Shingle variant 3" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                         <img src="images/shingle4.jpg" data-full="images/shingle4.jpg" alt="Shingle variant 4" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                          <img src="images/shingle5.jpg" data-full="images/shingle5.jpg" alt="Shingle variant 5" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
+                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Shingle</h3>
+                        <p class="text-primary font-bold text-label-caps tracking-wide">Modern Slate Profile</p>
+                        <p class="text-secondary font-headline-sm mt-2">Low-profile style with industrial strength.</p>
+                        
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Fire Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Wind Resistant</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Lightweight</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>UV Protected</span>
+                        </div>
+                    </div>
+                    <p class="font-body text-base border-l-4 border-primary/20 pl-6 py-4">
+                        Shingle provides a modern, low-profile slate appearance with the interlocking strength of high-grade steel. It is perfect for homeowners seeking a minimalist, contemporary aesthetic with industrial durability.
+                    </p>
+                    <ol class="flex flex-col items-start pl-8">
+                        <li type="i">Overal size: 1340mm*420mm</li>
+                        <li type="i">Coverage size: 1290mm * 370mm</li>
+                        <li type="i">Actual coverage/mile: 0.48m2</li>
+                        <li type="i">Tile per Square meter: 2.2pcs</li>
+                    </ol>
+                    
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="about.html#contact" class="bg-primary text-dark px-10 py-4 btn-primary inline-flex items-center justify-center">Request Quote</a>
+                        <a href="gallery.html" class="rounded-full pb-4 border-2 border-primary-dark text-gray-950 px-10 py-4 text-sm hover:bg-dark hover:text-surface inline-flex items-center justify-center">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5">
+                    <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
+                        <img src="images/steeldoor.jpg" class="w-full h-full object-cover product-main-image" alt="Stell door">
+                    </div>
+                    <div class="flex gap-3 justify-start mt-4">
+                        <img src="images/steeldoor1.jpg" data-full="images/steeldoor1.jpg" alt="steeldoor variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/steeldoor2.jpg" data-full="images/steeldoor2.jpg" alt="steeldoor variant 2" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/steeldoor4.jpg" data-full="images/steeldoor3.jpg" alt="steeldoor variant 3" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                        <img src="images/steeldoor3.jpg" data-full="images/steeldoor4.jpg" alt="steeldoor variant 4" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
+                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Steel door</h3>
+                        <p class="text-primary font-bold text-label-caps tracking-wide">Residential Project</p>
+                        <p class="text-secondary font-headline-sm mt-2"> Custom Steel Double and single Entry Door</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>High Security</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span> Premium Steel</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Multi-Point Locking</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-neutral-900 py-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span>Modern Panel Design</span>
+                        </div>
+                    </div>
+                    <p class="font-body text-base border-l-4 border-primary/20 pl-6 py-4">
+                            A premium steel entrance door crafted to elevate the appearance of residential and commercial properties. Featuring a contemporary panel design, precision engineering, and a high-quality finish, this installation delivers both style and peace of mind.
+                    </p>
+                            
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="about.html#contact" class="bg-primary text-dark px-10 py-4 btn-primary inline-flex items-center justify-center">Request Quote</a>
+                        <a href="gallery.html" class="rounded-full pb-4 border-2 border-primary-dark text-gray-950 px-10 py-4 text-sm hover:bg-dark hover:text-surface inline-flex items-center justify-center">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Accessories Section -->
+<section class="py-stack-lg md:py-section-padding bg-surface-container" id="accessories">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding">
+<div class="mb-stack-lg text-center">
+<h2 class="font-headline-md text-headline-md text-on-background">Essential Accessories</h2>
+<p class="text-secondary font-body-md mt-stack-sm">The components that complete the system.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Accessory Item 1 -->
+<div class="bg-white p-8 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-heading-sm text-headline-sm text-[18px] mb-2">Ridge Hip Cap</h4>
+<p class="text-secondary font-body py-2 text-base">Ridge hip cap seals and protect the open seams where different slopes of a roof meet</p>
+<ul class="flex md:flex-col gap-2 font-extrabold py-2">
+    <li>Overall Length: 2000 mm</li>
+    <li>Cover Length: 1900 mm</li>
+</ul>
+</div>
+
+<!-- Accessory Item 2 -->
+<div class="bg-white p-8 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-headline-sm text-headline-sm text-[18px] mb-2">Valley Tray</h4>
+<p class="text-secondary text-sm">Directs rainwater safely from roof valleys into the drainage system, reducing the risk of leaks.</p>
+<ul class="flex md:flex-col gap-2 font-extrabold py-2">
+    <li>Overall Length: 2000 mm</li>
+    <li>Cover Length: 1900 mm</li>
+</ul>
+</div>
+<!-- Accessory Item 3 -->
+<div class="bg-white p-8 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-headline-sm text-headline-sm text-[18px] mb-2">Side Flashing</h4>
+<p class="text-secondary text-sm">Seals roof edges against adjoining walls to prevent water ingress and provide a clean finish.</p>
+<ul class="flex md:flex-col gap-2 font-extrabold py-2">
+    <li>Overall Length: 2000 mm</li>
+    <li>Cover Length: 1900 mm</li>
+</ul>
+</div>
+<!-- ac1 -->
+ <div class="bg-white p-8 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-heading-sm text-headline-sm text-[18px] mb-2">Barge Box Cover</h4>
+<p class="text-secondary text-sm">Covers and protects barge boards along roof edges while enhancing the roof's appearance.</p>
+<ul class="flex md:flex-col gap-2 font-extrabold py-2">
+    <li>Overall Length: 2000 mm</li>
+    <li>Cover Length: 1900 mm</li>
+      <li>Downturn: 214mm</li>
+        <li>Width: 60mm</li>
+</ul>
+</div>
+<!-- ac2 -->
+ <div class="bg-white p-5 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-heading-sm text-headline-sm text-[18px] mb-2">Touch-up Kits</h4>
+<p class="text-secondary text-sm">Adhesive and stone granules for a seamless finish.</p>
+</div>
+
+<!-- Accessory Item 4 -->
+<div class="bg-white p-6 border-b-2 border-primary shadow-sm flex flex-col items-center text-center">
+
+<h4 class="font-headline-sm text-headline-sm text-[18px] mb-2">Nails</h4>
+<p class="text-secondary text-sm">Ensures perfect alignment and structural spacing.</p>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-dark border-t-4 border-primary mt-section-padding text-white">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter px-margin-mobile md:px-section-padding py-stack-lg max-w-container-max mx-auto">
+<div class="md:col-span-4 space-y-stack-md">
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">Colourful Roofing.ltd</div>
+<p class="text-surface-variant dark:text-on-surface-variant">
+                    Pioneering premium stone-coated steel roofing solutions. Engineering durability from New Zealand for global architectural excellence.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="facebook">face_nod</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-surface-variant flex items-center justify-center text-surface-bright hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="link">link</span>
+</a>
+</div>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Navigation</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="product.html">Products</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="index.html">Home</a></li>
+<li class=""><a class="text-surface hover:text-primary transition-colors" href="about.html#about">About</a></li>
+</ul>
+</div>
+<div class="md:col-span-2 space-y-stack-md">
+<h4 class="text-surface-alt font-bold uppercase text-xs tracking-widest">Legal</h4>
+<ul class="space-y-2 font-label-caps text-label-caps">
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a></li>
+<li class=""><a class="text-surface-variant hover:text-primary-container transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div class="md:col-span-4 space-y-stack-md">
+<h4 class="text-surface-bright font-bold uppercase text-xs tracking-widest">Newsletter</h4>
+<p class="text-surface-variant text-sm">Stay updated with our latest architectural projects and technical innovations.</p>
+<div class="flex">
+<input class="bg-surface-container-highest/10 border-b border-primary text-surface-bright px-4 py-2 focus:ring-0 focus:border-primary-container flex-grow outline-none" placeholder="Your email" type="email">
+<button class="bg-primary text-on-primary px-4 py-2 font-bold uppercase text-xs tracking-tighter">Join</button>
+</div>
+</div>
+</div>
+<div class="border-t border-surface-variant/20 py-8 px-margin-mobile md:px-section-padding max-w-container-max mx-auto text-center">
+<p class="text-surface-variant text-sm">
+                © 2026 Colourful Roofing. All rights reserved. Premium Stone-Coated Steel Roofing.
+            </p>
+</div>
+</footer>
+
+        <script type="module" src="./index.js"></script>
+
+    </body>
+    </html>
