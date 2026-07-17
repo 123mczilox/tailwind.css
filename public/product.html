@@ -5,20 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./output.css">
     
-    <title>Products — Colourful Roofing | Stone-Coated Tiles</title>
-    <meta name="description" content="Our product range: Milano, classic shingle and shake stone-coated roofing tiles. Durable roofing for Kenyan homes. See profiles and request a quote." />
+    <title>Stone-Coated Roofing Products | Colourful Roofing Kenya</title>
+    <meta name="description" content="Explore Colourful Roofing's premium stone-coated roofing products in Kenya, including Milano, Classic, Shake, Shingle profiles and steel security doors. Request a free quote today." />
     <meta name="keywords" content="stone-coated tiles, milano, shingle, classic, shake, roofing profiles, roofing kenya,steel doors classic" />
     <link rel="canonical" href="https://colourfulroofingltd.co.ke/product.html" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Stone-coated roofing tiles",
-      "description": "Milano, shingle and shake profiles",
-      "brand": "Colourful Roofing",
-      "url": "https://colourfulroofingltd.co.ke/product.html"
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Roofing Products",
+  "description": "Browse Colourful Roofing's premium range of stone-coated roofing tiles, steel doors, and roofing accessories.",
+  "url": "https://colourfulroofingltd.co.ke/product.html",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "Colourful Roofing Ltd",
+    "url": "https://colourfulroofingltd.co.ke",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://colourfulroofingltd.co.ke/images/logo.png"
     }
-    </script>
+  },
+
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 5,
+    "itemListElement": [
+
+      {
+        "@type": "Product",
+        "position": 1,
+        "name": "Milano Stone-Coated Roofing Tile",
+        "description": "High-profile curves with a classic Mediterranean finish.",
+        "image": "https://colourfulroofingltd.co.ke/images/milano1.jpg",
+        "url": "https://colourfulroofingltd.co.ke/product.html#milano",
+        "brand": {
+          "@type": "Brand",
+          "name": "Colourful Roofing"
+        }
+      },
+
+      {
+        "@type": "Product",
+        "position": 2,
+        "name": "Classic Stone-Coated Roofing Tile",
+        "description": "Balanced proportions for timeless curb appeal.",
+        "image": "https://colourfulroofingltd.co.ke/images/classic1.jpg",
+        "url": "https://colourfulroofingltd.co.ke/product.html#classic",
+        "brand": {
+          "@type": "Brand",
+          "name": "Colourful Roofing"
+        }
+      },
+
+      {
+        "@type": "Product",
+        "position": 3,
+        "name": "Shake Stone-Coated Roofing Tile",
+        "description": "Textured timber-look roofing with steel strength.",
+        "image": "https://colourfulroofingltd.co.ke/images/shake1.jpg",
+        "url": "https://colourfulroofingltd.co.ke/product.html#shake",
+        "brand": {
+          "@type": "Brand",
+          "name": "Colourful Roofing"
+        }
+      },
+
+      {
+        "@type": "Product",
+        "position": 4,
+        "name": "Shingle Stone-Coated Roofing Tile",
+        "description": "Modern slate profile with industrial durability.",
+        "image": "https://colourfulroofingltd.co.ke/images/shingle1.jpg",
+        "url": "https://colourfulroofingltd.co.ke/product.html#shingle",
+        "brand": {
+          "@type": "Brand",
+          "name": "Colourful Roofing"
+        }
+      },
+
+      {
+        "@type": "Product",
+        "position": 5,
+        "name": "Steel Security Door",
+        "description": "Premium steel security doors for residential and commercial properties.",
+        "image": "https://colourfulroofingltd.co.ke/images/steeldoor1.jpg",
+        "url": "https://colourfulroofingltd.co.ke/product.html#steel-door",
+        "brand": {
+          "@type": "Brand",
+          "name": "Colourful Roofing"
+        }
+      }
+
+    ]
+  }
+}
+</script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <link href="./index.js" rel="modulepreload" as="script">
 </head>
@@ -71,7 +153,7 @@
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding">
             <div class="max-w-3xl">
                 <span class="text-primary font-label-caps text-label-caps mb-stack-sm tracking-wider">Explore our premium roofing Products</span>
-            <h2 class="text-4xl font-bold font-heading">Our Roofing Solutions</h2>
+            <h1 class="text-4xl font-bold font-heading">Our Roofing Solutions</h1>
             <p class="text-base md:text-lg opacity-90"> Engineered for the elements. Metro Roof's stone-coated steel profiles combine architectural elegance with unmatched structural durability. </p>
         </div>
         </div>
@@ -88,13 +170,13 @@
 <section class="mt-10 bg-slate-100">
     <div class="max-w-container-max mx-auto px-margin-mobile md:px-section-padding">
         <div class="mb-stack-lg">
-            <h1 class="pt-6 text-lg md:text-xl font-heading font-bold">
+            <h2 class="pt-6 text-lg md:text-xl font-heading font-bold">
                 STONE COATED STEEL PROFILES 
-            </h1>
+            </h2>
         </div>
         <!-- product card 1 -->
         <div class="space-y-28">
-            <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+            <div id="milano" class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
                 <div class="w-full lg:w-1/2 flex flex-col gap-5">
                     <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
                         <img src="images/IMG-20260701-WA0037.jpg" class="w-full h-full object-cover product-main-image" alt="Milano tile">
@@ -145,7 +227,7 @@
                 </div>
             </div>
             <!-- card 2 -->
-            <div class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+            <div id="classic" class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
                 <div class="w-full lg:w-1/2 flex flex-col gap-5">
                     <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
                         <img src="images/classic.jpg" class="w-full h-full object-cover product-main-image" alt="Classic tile">
@@ -162,8 +244,8 @@
                 </div>
                 <div class="w-full lg:w-1/2 space-y-6">
                     <div>
-                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
-                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Classic</h3>
+                        <span class="text-3xl font-bold text-gray-700 font-heading">Colourful</span>
+                        <h2 class="font-heading text-2xl font-semibold text-dark mb-1">Classic</h2>
                         <p class="text-primary font-bold text-label-caps tracking-wide">Stone-Coated Elegance</p>
                         <p class="text-secondary font-headline-sm mt-2">Balanced proportions for timeless curb appeal.</p>
                     </div>
@@ -201,7 +283,7 @@
                 </div>
             </div>
             <!-- card 3 -->
-            <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+            <div id="shake" class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
                 <div class="w-full lg:w-1/2 flex flex-col gap-5">
                     <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
                         <img src="images/shake.jpg" class="w-full h-full object-cover product-main-image" alt="Shake tile">
@@ -213,8 +295,8 @@
                 </div>
                 <div class="w-full lg:w-1/2 space-y-6">
                     <div>
-                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
-                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">shake</h3>
+                        <span class="text-3xl font-bold text-gray-700 font-heading">Colourful</span>
+                        <h2 class="font-heading text-2xl font-semibold text-dark mb-1">shake</h2>
                         <p class="text-primary font-bold text-label-caps tracking-wide">Textured Timber Look</p>
                         <p class="text-secondary font-headline-sm mt-2">Rugged style with steel strength.</p>
                     </div>
@@ -252,7 +334,7 @@
                 </div>
             </div>
             <!-- card 4 -->
-            <div class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+            <div id="shingle" class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
                 <div class="w-full lg:w-1/2 flex flex-col gap-5">
                     <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
                         <img src="images/shingle.jpg" class="w-full h-full object-cover product-main-image" alt="Shingle tile">
@@ -267,8 +349,8 @@
                 </div>
                 <div class="w-full lg:w-1/2 space-y-6">
                     <div>
-                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
-                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Shingle</h3>
+                        <span class="text-3xl font-bold text-gray-700 font-heading">Colourful</span>
+                        <h2 class="font-heading text-2xl font-semibold text-dark mb-1">Shingle</h2>
                         <p class="text-primary font-bold text-label-caps tracking-wide">Modern Slate Profile</p>
                         <p class="text-secondary font-headline-sm mt-2">Low-profile style with industrial strength.</p>
                         
@@ -307,10 +389,10 @@
                     </div>
                 </div>
             </div>
-                        <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
+                        <div id="steel-door" class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start product-card p-6 lg:p-8">
                 <div class="w-full lg:w-1/2 flex flex-col gap-5">
                     <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-xl">
-                        <img src="images/steeldoor.jpg" class="w-full h-full object-cover product-main-image" alt="Stell door">
+                        <img src="images/steeldoor.jpg" class="w-full h-full object-cover product-main-image" alt="Steel door">
                     </div>
                     <div class="flex gap-3 justify-start mt-4">
                         <img src="images/steeldoor1.jpg" data-full="images/steeldoor1.jpg" alt="steeldoor variant 1" class="product-thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-primary transition duration-200">
@@ -321,8 +403,8 @@
                 </div>
                 <div class="w-full lg:w-1/2 space-y-6">
                     <div>
-                        <h2 class="text-3xl font-bold text-gray-700 font-heading">Colourful</h2>
-                        <h3 class="font-heading text-2xl font-semibold text-dark mb-1">Steel door</h3>
+                        <span class="text-3xl font-bold text-gray-700 font-heading">Colourful</span>
+                        <h2 class="font-heading text-2xl font-semibold text-dark mb-1">Steel door</h2>
                         <p class="text-primary font-bold text-label-caps tracking-wide">Residential Project</p>
                         <p class="text-secondary font-headline-sm mt-2"> Custom Steel Double and single Entry Door</p>
                     </div>
